@@ -1,0 +1,29 @@
+Open project directory using windows explorer right click click git bash
+
+
+amjad@amjad MINGW64 /c/carzone-project
+$
+
+$ python -m venv env
+
+$ source env/Scripts/activate
+(env)
+amjad@amjad MINGW64 /c/carzone-project
+$
+$ deactivate
+
+amjad@amjad MINGW64 /c/carzone-project
+$ source env/Scripts/activate
+(env)
+amjad@amjad MINGW64 /c/carzone-project
+$ pip freeze
+(env)
+amjad@amjad MINGW64 /c/carzone-project
+$
+
+$ pip install django==3.0.7
+$ pip install --upgrade pip
+
+
+C:\carzone-project\pages>python manage.py runserver
+C:\carzone-project\pages>python manage.py startapp pages
